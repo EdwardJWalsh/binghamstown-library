@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 /* Asterisk wildcard selector to override default browser settings*/
 
 *{
@@ -14,20 +16,23 @@ body {
     flex-direction: column;
 
     /* Generic page styles */
-    color: #3a3a3a
-}
-
+    color: rgb(255, 255, 255);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      }
+      
 
 /* Header */
 
 header {
-    background-color: rgb(221, 26, 205);
+    background-color: rgb(48, 40, 153);
 }
 
 /* Main Content*/
 
 main {
-    background-color: rgb(6, 238, 26);
+    background-color: rgb(253, 195, 5);
 
     /* Make main element push footer down */
 
@@ -37,5 +42,5 @@ main {
 /* Footer */
 
 footer{
-    background-color: rgb(221, 26, 205);
+    background-color: rgb(48, 40, 153);
 }
