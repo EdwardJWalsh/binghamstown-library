@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Protest+Strike&display=swap');
 
 /* Asterisk wildcard selector to override default browser settings*/
 
@@ -17,7 +17,7 @@ body {
 
     /* Generic page styles */
     color: rgb(255, 255, 255);
-    font-family: "Anton", sans-serif;
+    font-family: "Protest Strike", sans-serif;
     font-weight: 400;
     font-style: normal;
       }
