@@ -26,13 +26,18 @@ body {
 /* Header */
 
 header {
-    background-color: rgb(48, 40, 153);
+    background-color: rgb(243, 153, 205);
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    color:rgb(255, 255, 255)
 }
 
 /* Main Content*/
 
 main {
-    background-color: rgb(253, 195, 5);
+    background-color: rgb(30, 190, 211);
 
     /* Make main element push footer down */
 
@@ -42,5 +47,5 @@ main {
 /* Footer */
 
 footer{
-    background-color: rgb(48, 40, 153);
+    background-color: rgb(243, 153, 205);
 }
