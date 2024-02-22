@@ -30,15 +30,26 @@ header {
     background-color: rgb(243, 153, 205);
     padding: 2rem 2rem;
     position: fixed;
-    z-index: 99;
+    z-index: 10;
     width: 100%;
 }
-   
+  
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 h1 {
     font-family: 'Anton', sans-serif;
-    color:rgb(255, 255, 255)
+    color:rgb(255, 255, 255);
+    letter-spacing: 3px;
 }
 
+#menu {
+
+    font-size: 120%; 
+    letter-spacing: 3px;
+    list-style-type:none
+}
 /* Main Content*/
 
 main {
@@ -50,6 +61,14 @@ main {
 }
 
 /* Footer */
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+}
 
 footer{
     background-color: rgb(243, 153, 205);
