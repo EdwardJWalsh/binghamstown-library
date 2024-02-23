@@ -103,6 +103,10 @@ main {
 
 /* Footer */
 
+footer {
+    background-color: rgb(252, 252, 252);
+}
+
 #social-networks {
     color: rgb(121, 120, 120) ;
     text-align: center;
@@ -112,6 +116,12 @@ main {
     list-style-type: none;
 }
 
+#social-networks i {
+
+    font-size: 160%;
+    padding: 5%;
+    color:rgb(65, 3, 165);
+}
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width:768px) {
@@ -155,6 +165,4 @@ main {
     }
 }
 
-footer{
-    background-color: rgb(243, 153, 205);
-}
+
