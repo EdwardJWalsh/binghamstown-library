@@ -21,7 +21,14 @@ body {
     font-weight: 400;
     font-style: normal;
       }
-      
+   
+      h1, h2, h3 {
+        font-family: 'Anton', sans-serif;
+        color:rgb(121, 120, 120);
+        text-transform:uppercase;
+        letter-spacing: 3px;
+    
+    }
 
 /* Header */
 
@@ -42,13 +49,7 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'Anton', sans-serif;
-    color:rgb(121, 120, 120);
-    text-transform:uppercase;
-    letter-spacing: 3px;
 
-}
 
 #menu {
     font-size: 120%;
@@ -103,11 +104,34 @@ main {
 /* Hero section*/
 
 #hero {
-    height: 600px;
-    width:100%;
+    
     background: url(../images/istockphoto-1158413597-612x612.jpg)
     no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+#cover-text {
+    background-color: rgba(42, 133, 113, 0.829);
+    font-size:100%;
+    font-style: oblique;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    min-height: 200px;
+    padding: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: rgb(255, 255, 255);
+}
+
 /* Footer */
 
 footer {
