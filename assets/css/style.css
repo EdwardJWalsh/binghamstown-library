@@ -105,7 +105,7 @@ main {
 #hero {
     height: 600px;
     width:100%;
-    background: url(/assets/istockphoto-1158413597-612x612.jpg)
+    background: url(../images/istockphoto-1158413597-612x612.jpg)
     no-repeat center center/cover;
 }
 /* Footer */
