@@ -105,19 +105,20 @@ main {
 
 #hero {
     
-    background: url(../images/istockphoto-1158413597-612x612.jpg)
+    background: url(../images/pexels-pixabay-159711.jpg)
     no-repeat center center/cover;
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Set the height to 100% of the viewport height */
-    display: flex;
+    height: 1200px;
+    width:100%;
+    display:flex;
     align-items: center;
     justify-content: center;
 }
 
 #cover-text {
     background-color: rgba(42, 133, 113, 0.829);
-    font-size:100%;
+    font-size: 100%;
     font-style: oblique;
     position:absolute;
     top:50%;
@@ -126,7 +127,9 @@ main {
     width:80%;
     min-height: 200px;
     padding: 10px;
+    text-align: center;
 }
+
 
 #cover-text > h2, #cover-text > h3 {
     color: rgb(255, 255, 255);
