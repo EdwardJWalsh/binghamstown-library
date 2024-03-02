@@ -132,6 +132,11 @@ main {
     color: rgb(255, 255, 255);
 }
 
+#about-us{
+        background-color: darkorange;
+        min-height:10rem;
+
+}
 /* Footer */
 
 footer {
