@@ -135,7 +135,102 @@ main {
 #about-us{
         background-color: darkorange;
         min-height:10rem;
+}
 
+/*services section images and layout*/
+
+.read-with-me {
+    display: flex;
+    align-items: center;
+}
+
+.children-reading {
+    max-width: 300px;
+    height:auto;
+    margin-bottom: 20px;
+}
+
+.read-with-me-text {
+     flex:1;
+     margin-left: 20px; 
+}
+
+.computer-classes {
+    display: flex;
+    align-items: center;
+}
+
+.older-person-using-pc {
+    max-width: 300px;
+    height:auto;
+    margin-bottom: 20px;
+}
+
+.computer-classes-text {
+    flex:1;
+    margin-left: 20px; 
+}
+
+.public-computers {
+    display: flex;
+    align-items: center;
+}
+
+.desktop-computers {
+    max-width: 300px;
+    height:auto;
+    margin-bottom: 20px;
+}
+
+.public-computers-text {
+    flex:1;
+    margin-left: 20px;
+}
+
+.physical-media{
+    display: flex;
+    align-items: center;
+}
+.physical-media-collection{
+    max-width: 300px;
+    height:auto;
+    margin-bottom: 20px;
+}
+.DVD-collection {
+    flex:1;
+    margin-left: 20px;
+}
+
+.board-game-nights{
+    display: flex;
+    align-items: center;
+}
+
+.board-games{
+    max-width: 300px;
+    height:auto;
+    margin-bottom: 20px;
+}
+
+.board-games-text{
+    flex:1;
+    margin-left: 20px;
+}
+
+.genealogy-service {
+    display: flex;
+    align-items: center;
+}
+
+.family-tree {
+    max-width: 300px;
+    height:auto;
+    margin-bottom: 20px;
+}
+
+.genealogy-service-text {
+    flex:1;
+    margin-left: 20px;
 }
 /* Footer */
 
@@ -198,5 +293,67 @@ main {
 @media screen and (min-width:992px) {
     #menu a:hover {
         border-bottom: 1px solid rgb(121, 120, 120);
+    }
+}
+}
+@media (max-width: 600px) {
+    .children-reading {
+        width:100%;
+        order:2;
+    }
+        
+    .read-with-me-text{
+        margin-left: 0;
+        flex:100%;
+    }
+
+    .older-person-using-pc{
+        width:100%;
+        order:2;
+    }
+        
+    .computer-classes-text{
+        margin-left: 0;
+        flex:100%;
+    }
+
+    .desktop-computers {
+        width:100%;
+        order:2;
+    }
+    
+    .public-computers-text {
+        margin-left: 0;
+        flex:100%;
+    }
+
+    .physical-media-collection {
+        width:100%;
+        order:2;
+    }
+
+    .DVD-collection {
+        margin-left: 0;
+        flex:100%;
+    }
+
+    .board-games {
+        width:100%;
+        order:2;
+    }
+
+    .board-games-text {
+        margin-left: 0;
+        flex:100%;
+    }
+
+    .family-tree {
+        width:100%;
+        order:2;
+    }
+    
+    .genealogy-service-text {
+        margin-left: 0;
+        flex:100%;
     }
 }
