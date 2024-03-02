@@ -29,7 +29,6 @@ body {
         letter-spacing: 3px;
     
     }
-
 /* Header */
 
 header {
@@ -107,9 +106,9 @@ main {
     
     background: url(../images/pexels-pixabay-159711.jpg)
     no-repeat center center/cover;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
-    height: 100vh; /* Set the height to 100% of the viewport height */
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,12 +119,12 @@ main {
     font-size:100%;
     font-style: oblique;
     position:absolute;
-    top:50%;
+    top:25%;
     left:50%;
     transform: translate(-50%, -50%);
     width:80%;
-    min-height:3rem;
-    padding: 10px;
+    min-height:10rem;
+    padding: 40px;
     text-align: center;
 }
 
