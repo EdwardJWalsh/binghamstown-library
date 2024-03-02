@@ -10,17 +10,28 @@
 
 /* General Styles */
 
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
 body {
     min-height: 100vh;
     display:flex;
     flex-direction: column;
 
+
     /* Generic page styles */
-    color: rgb(121, 120, 120);
+
+    color: rgb (121, 120, 120);
     font-family: "Protest Strike", sans-serif;
     font-weight: 400;
     font-style: normal;
-      }
+   }
+    
    
       h1, h2, h3 {
         font-family: 'Anton', sans-serif;
@@ -139,9 +150,11 @@ main {
 
 /*services section images and layout*/
 
+
 .read-with-me {
     display: flex;
     align-items: center;
+    background-color: aquamarine;
 }
 
 .children-reading {
@@ -151,13 +164,13 @@ main {
 }
 
 .read-with-me-text {
-     flex:1;
-     margin-left: 20px; 
+    flex:1;
+    margin-left: 20px;
 }
-
 .computer-classes {
     display: flex;
     align-items: center;
+    background-color: brown;
 }
 
 .older-person-using-pc {
@@ -232,6 +245,12 @@ main {
     flex:1;
     margin-left: 20px;
 }
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 /* Footer */
 
 footer {
@@ -296,17 +315,17 @@ main {
     }
 }
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .children-reading {
-        width:100%;
-        order:2;
-    }
-        
-    .read-with-me-text{
         margin-left: 0;
         flex:100%;
     }
 
+    .read-with-me-text {
+        margin-left: 0;
+        flex:100%;
+    }
+    
     .older-person-using-pc{
         width:100%;
         order:2;
@@ -356,4 +375,6 @@ main {
         margin-left: 0;
         flex:100%;
     }
+
+
 }
