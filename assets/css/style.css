@@ -27,19 +27,39 @@ body {
     /* Generic page styles */
 
     color: rgb (121, 120, 120);
-    font-family: "Protest Strike", sans-serif;
+    font-family: 'Protest Strike', sans-serif;
     font-weight: 400;
     font-style: normal;
    }
     
    
-      h1, h2, h3 {
+      h1 {
         font-family: 'Anton', sans-serif;
-        color:rgb(121, 120, 120);
+        color:black;
+        text-transform:uppercase;
+        letter-spacing: 5px;
+        font-weight: 300;
+    }
+    
+      h2  {
+        font-family: 'Anton', sans-serif;
+        color:black;
         text-transform:uppercase;
         letter-spacing: 3px;
-    
     }
+  
+      h3 {
+        font-family: 'Anton', sans-serif;
+        color:black;
+        text-transform:uppercase;
+        letter-spacing: 3px;
+    }
+
+
+    p {
+        font-weight: 100;
+    }
+    
 /* Header */
 
 header {
@@ -58,8 +78,6 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-
-
 
 #menu {
     font-size: 120%;
@@ -114,7 +132,6 @@ main {
 /* Hero section*/
 
 #hero {
-    
     background: url(../images/pexels-pixabay-159711.jpg)
     no-repeat center center/cover;
     background-size:cover;
@@ -125,8 +142,12 @@ main {
     justify-content: center;
 }
 
+#hero h2, h3 {
+     letter-spacing: 5px;
+}
+
 #cover-text {
-    background-color: rgba(42, 133, 113, 0.829);
+    background-color: rgb(121, 120, 120, 0.5);
     font-size:100%;
     font-style: oblique;
     position:absolute;
@@ -144,13 +165,32 @@ main {
 }
 
 #about-us{
-        background-color: darkorange;
+        background-color: rgb(121, 120, 120);
         min-height:10rem;
+        text-align: center;
+        padding: 20PX;
 }
 
+#opening-times {
+    background: url(../images/pexels-pixabay-159711.jpg)
+    no-repeat center center/cover;
+}
 
+#opening-times > h1 {
+    color: white;
+}
 
+#contact-us {
+    background-color: rgb(121, 120, 120)
+}
 
+#social-networks {
+    color:black;
+}
+
+#signup {
+    background-color: aqua;
+}
 @media screen and (min-width:768px) {
     /* Header */
     nav {display: block;
@@ -191,15 +231,7 @@ margin-top: 79px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-
-    /*background image*/
-
-    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    padding:20px;
 }
 
 .children-reading {
@@ -219,15 +251,7 @@ margin-top: 79px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-
-    /*background image*/
-
-    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    padding:20px;
 }
 
 .older-person-using-pc {
@@ -246,15 +270,7 @@ margin-top: 79px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    /*background image*/
-
-    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    padding:20px;
 }
 
 .desktop-computers {
@@ -273,17 +289,9 @@ margin-top: 79px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-    /*background image*/
-
-    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    padding:20px;
 }
+
 .physical-media-collection{
     max-width: 300px;
     height:auto;
@@ -299,15 +307,7 @@ margin-top: 79px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    /*background image*/
-
-    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    padding:20px;
 }
 
 .board-games{
@@ -326,15 +326,7 @@ margin-top: 79px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    /*background image*/
-
-    background-image: url(.assets/images/istockphoto-1411029939-612x612.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    padding:20px;
 }
 
 .family-tree {
@@ -351,9 +343,10 @@ margin-top: 79px;
 
 
 th, td {
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd;
     text-align: left;
     padding: 8px;
+    background-color: #fff;
 }
 /* Footer */
 
