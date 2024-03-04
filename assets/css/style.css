@@ -148,102 +148,153 @@ main {
         min-height:10rem;
 }
 
+
+
+
+@media screen and (min-width:768px) {
+    /* Header */
+    nav {display: block;
+         position: relative;
+         box-shadow: none;
+         width:fit-content;
+         padding-right:1rem;
+ }
+
+#menu {
+display:flex;
+}
+#menu > li {
+padding-left: 1rem;
+}
+
+.nav-toggle-label {
+display:none;
+}
+
+#logo {
+font-size:200%;
+line-height: 75px;
+margin: 0 0.5rem;
+}
+/* Main content */
+
+main {
+/*push main content down to accomodate larger header */
+margin-top: 79px;
+}
+}
 /*services section images and layout*/
 
 
 .read-with-me {
     display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: aquamarine;
+    margin-bottom: 20px;
 }
 
 .children-reading {
     max-width: 300px;
     height:auto;
-    margin-bottom: 20px;
 }
 
 .read-with-me-text {
     flex:1;
-    margin-left: 20px;
+    margin-left: 0;
+    text-align: center;
 }
 .computer-classes {
     display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: brown;
+    margin-bottom: 20px;
 }
 
 .older-person-using-pc {
     max-width: 300px;
     height:auto;
-    margin-bottom: 20px;
 }
 
 .computer-classes-text {
-    flex:1;
-    margin-left: 20px; 
+    flex: 1;
+    margin-left: 0;
+    text-align: center;
 }
 
 .public-computers {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    background-color: brown;
+    margin-bottom: 20px;
 }
 
 .desktop-computers {
     max-width: 300px;
     height:auto;
-    margin-bottom: 20px;
 }
 
 .public-computers-text {
-    flex:1;
-    margin-left: 20px;
+    flex: 1;
+    margin-left: 0;
+    text-align: center;
 }
 
 .physical-media{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    background-color: brown;
+    margin-bottom: 20px;
 }
 .physical-media-collection{
     max-width: 300px;
     height:auto;
-    margin-bottom: 20px;
 }
 .DVD-collection {
     flex:1;
-    margin-left: 20px;
+    margin-left: 0;
+    text-align: center;
 }
 
 .board-game-nights{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    background-color: brown;
+    margin-bottom: 20px;
 }
 
 .board-games{
     max-width: 300px;
     height:auto;
-    margin-bottom: 20px;
 }
 
 .board-games-text{
     flex:1;
-    margin-left: 20px;
+    margin-left: 0;
+    text-align: center;
 }
 
 .genealogy-service {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    background-color: brown;
+    margin-bottom: 20px;
 }
 
 .family-tree {
     max-width: 300px;
     height:auto;
-    margin-bottom: 20px;
 }
 
 .genealogy-service-text {
     flex:1;
-    margin-left: 20px;
+    margin-left: 0;
+    text-align: center;
 }
 
 
@@ -310,21 +361,25 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:900px) {
     #menu a:hover {
         border-bottom: 1px solid rgb(121, 120, 120);
     }
 }
-}
-@media screen and (max-width: 600px) {
+
+@media only screen and (max-width: 600px) {
+   
     .children-reading {
-        margin-left: 0;
-        flex:100%;
+       width: 600px;
     }
 
     .read-with-me-text {
         margin-left: 0;
         flex:100%;
+    }
+
+    .read-with-me {
+        margin-bottom: 10px;
     }
     
     .older-person-using-pc{
@@ -375,6 +430,96 @@ main {
     .genealogy-service-text {
         margin-left: 0;
         flex:100%;
+    }
+
+
+}
+@media only screen and (min-width: 601px) {
+   
+    .read-with-me {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .children-reading {
+        margin-bottom:0;
+        margin-right:20px;
+    }
+
+    .read-with-me-text {
+        text-align: left;
+    }
+
+    .computer-classes {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .older-person-using-pc{
+        margin-bottom:0;
+        margin-right:20px;
+    }
+        
+    .computer-classes-text{
+        text-align: left;
+    }
+   
+    .public-computers {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .desktop-computers {
+        margin-bottom:0;
+        margin-right:20px;
+    }
+    
+    .public-computers-text {
+        text-align: left;
+    }
+    
+    .physical-media {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .physical-media-collection {
+        margin-bottom:0;
+        margin-right:20px;
+    }
+
+    .DVD-collection {
+        text-align: left;
+    }
+    .board-game-nights {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .board-games {
+        margin-bottom:0;
+        margin-right:20px;
+    }
+
+    .board-games-text {
+        text-align: left;
+    }
+    .genealogy-service{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .family-tree {
+        margin-bottom:0;
+        margin-right:20px;
+    }
+    
+    .genealogy-service-text {
+        text-align: left;
     }
 
 
