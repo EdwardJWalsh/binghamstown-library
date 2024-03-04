@@ -190,8 +190,16 @@ margin-top: 79px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aquamarine;
     margin-bottom: 20px;
+
+    /*background image*/
+
+    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
 }
 
 .children-reading {
@@ -200,16 +208,26 @@ margin-top: 79px;
 }
 
 .read-with-me-text {
-    flex:1;
+    flex: 1;
     margin-left: 0;
     text-align: center;
+    padding:20px;
+    color:darkblue;
 }
 .computer-classes {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: brown;
     margin-bottom: 20px;
+
+    /*background image*/
+
+    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
 }
 
 .older-person-using-pc {
@@ -221,14 +239,22 @@ margin-top: 79px;
     flex: 1;
     margin-left: 0;
     text-align: center;
+    padding:20px;
 }
 
 .public-computers {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: brown;
-    margin-bottom: 20px;
+    
+    /*background image*/
+
+    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
 }
 
 .desktop-computers {
@@ -240,14 +266,23 @@ margin-top: 79px;
     flex: 1;
     margin-left: 0;
     text-align: center;
+    padding:20px;
 }
 
 .physical-media{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: brown;
-    margin-bottom: 20px;
+
+
+    /*background image*/
+
+    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
 }
 .physical-media-collection{
     max-width: 300px;
@@ -257,14 +292,22 @@ margin-top: 79px;
     flex:1;
     margin-left: 0;
     text-align: center;
+    padding:20px;
 }
 
 .board-game-nights{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: brown;
-    margin-bottom: 20px;
+    
+    /*background image*/
+
+    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
 }
 
 .board-games{
@@ -276,14 +319,22 @@ margin-top: 79px;
     flex:1;
     margin-left: 0;
     text-align: center;
+    padding:20px;
 }
 
 .genealogy-service {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: brown;
-    margin-bottom: 20px;
+    
+    /*background image*/
+
+    background-image: url(/assets/images/istockphoto-1411029939-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
 }
 
 .family-tree {
@@ -295,6 +346,7 @@ margin-top: 79px;
     flex:1;
     margin-left: 0;
     text-align: center;
+    padding:20px;
 }
 
 
