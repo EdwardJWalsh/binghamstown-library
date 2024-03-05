@@ -13,6 +13,7 @@
 h1 {
     text-align: center;
     text-decoration: underline;
+    height: 60px;
 }
 
 h2 {
@@ -27,14 +28,12 @@ body {
     /* Generic page styles */
 
     color: rgb (121, 120, 120);
-    font-family: 'Protest Strike', sans-serif;
     font-weight: 400;
     font-style: normal;
    }
     
    
       h1 {
-        font-family: 'Anton', sans-serif;
         color:black;
         text-transform:uppercase;
         letter-spacing: 5px;
@@ -49,7 +48,6 @@ body {
     }
   
       h3 {
-        font-family: 'Anton', sans-serif;
         color:black;
         text-transform:uppercase;
         letter-spacing: 3px;
@@ -83,7 +81,7 @@ header a {
     font-size: 120%;
     letter-spacing: 2px;
     list-style-type: none;
-    font-style: oblique;
+    font-style: normal;
 }
 
 #menu > li {
@@ -149,7 +147,7 @@ main {
 #cover-text {
     background-color: rgb(121, 120, 120, 0.5);
     font-size:100%;
-    font-style: oblique;
+    font-style: normal;
     position:absolute;
     top:25%;
     left:50%;
@@ -181,7 +179,7 @@ main {
 }
 
 #contact-us {
-    background-color: rgb(121, 120, 120)
+    background-color: rgb(121, 120, 120);
 }
 
 #social-networks {
@@ -225,17 +223,15 @@ margin-top: 79px;
 }
 }
 /*services section images and layout*/
-
-
 .read-with-me {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
     padding:20px;
-    background-color: lawngreen;
-    background:linear-gradient(to right, lawngreen, transparent);
-    
+    background-color: #061E45;
+    background: linear-gradient(to bottom, #CBCBD4, transparent);
+    text-align: center;
 }
 
 .children-reading {
@@ -249,6 +245,7 @@ margin-top: 79px;
     margin-right: 0;
     text-align: center;
     padding:20px;
+    color:#D4AF37;
 }
 
 .computer-classes {
@@ -257,8 +254,8 @@ margin-top: 79px;
     align-items: center;
     margin-bottom: 20px;
     padding:20px;
-    background-color: gold;
-    background:linear-gradient(to left, gold, transparent);
+    background-color: #061E45;
+    background: linear-gradient(to bottom, #CBCBD4, transparent);
 }
 
 .older-person-using-pc {
@@ -271,6 +268,7 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
+    color:#D4AF37;
 }
 
 .public-computers {
@@ -278,8 +276,8 @@ margin-top: 79px;
     flex-direction: column;
     align-items: center;
     padding:20px;
-    background-color: rgb(1, 127, 177);
-    background:linear-gradient(to right,  rgb(1, 127, 177), transparent);
+    background-color: #061E45;
+    background: linear-gradient(to bottom, #CBCBD4, transparent);
 }
 
 .desktop-computers {
@@ -293,6 +291,7 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
+    color:#D4AF37;
 }
 
 .physical-media{
@@ -300,8 +299,8 @@ margin-top: 79px;
     flex-direction: column;
     align-items: center;
     padding:20px;
-    background-color: rgb(202, 42, 250);
-    background:linear-gradient(to left,  rgb(202, 42, 250), transparent);
+    background-color: #061E45;
+    background: linear-gradient(to bottom, #CBCBD4, transparent);
 }
 
 .physical-media-collection{
@@ -313,6 +312,7 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
+    color:#D4AF37;
 }
 
 .board-game-nights{
@@ -320,8 +320,8 @@ margin-top: 79px;
     flex-direction: column;
     align-items: center;
     padding:20px;
-    background-color: rgb(0, 134, 7);
-    background:linear-gradient(to right,  rgb(0, 134, 7), transparent);
+    background-color: #061E45;
+    background: linear-gradient(to bottom, #CBCBD4, transparent);
 }
 
 .board-games{
@@ -335,6 +335,7 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
+    color:#D4AF37;
 }
 
 .genealogy-service {
@@ -342,8 +343,8 @@ margin-top: 79px;
     flex-direction: column;
     align-items: center;
     padding:20px;
-    background-color: rgb(146, 20, 20);
-    background:linear-gradient(to left,  rgb(146, 20, 20), transparent);
+    background-color: #061E45;
+    background: linear-gradient(to bottom, #CBCBD4, transparent);
 }
 
 .family-tree {
@@ -356,6 +357,7 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
+    color:#D4AF37;
 }
 
 
@@ -372,19 +374,17 @@ footer {
 }
 
 #social-networks {
-    color: rgb(121, 120, 120) ;
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 
 #social-networks i {
-
     font-size: 160%;
     padding: 5%;
-    color:rgb(65, 3, 165);
+    color: #3a3a3a;
 }
 /* Media query: tablets and larger (768px and up) */
 
