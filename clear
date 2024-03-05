@@ -1,0 +1,179 @@
+[33mcommit fe502becbacf66b51489faac1136afa0185f5d94[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Mon Mar 4 21:05:54 2024 +0000
+
+    add bacjground color and center text on 'register'page
+
+[33mcommit 890b3f3f3b334fe3c59a719561417fcced369ef8[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Mon Mar 4 21:01:50 2024 +0000
+
+    add style to homepage
+
+[33mcommit d74304c38579ccb3534d9f8202e8fd6b28a31555[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Mon Mar 4 19:58:24 2024 +0000
+
+    make image paths absolute
+
+[33mcommit a8db0d6ddab04e8404cd1d4ce374c03d71cf790f[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Mon Mar 4 19:44:57 2024 +0000
+
+    add background images to services section
+
+[33mcommit 030c785ba8d2a90c7e9868b11a4ce6c146a632a0[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Mon Mar 4 19:11:26 2024 +0000
+
+    fix media querys for services section
+
+[33mcommit 6a1e4b6e9456816aea3477e8c0b76131fd1836a5[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Sat Mar 2 21:42:08 2024 +0000
+
+    add flexbox settings to 'services' sections
+
+[33mcommit 1d06fc3cb42eb28564498638a5c4c70d6dd8692d[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Sat Mar 2 18:38:54 2024 +0000
+
+    add register form to register page
+
+[33mcommit ed5e3e462932698a6dbb993b6a229593f5ad2ae2[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Sat Mar 2 18:04:36 2024 +0000
+
+    center h1 headers, add table for opening times
+
+[33mcommit 37b18b003bc770f660eaba7ab4561abf43a1c9b0[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Sat Mar 2 14:24:23 2024 +0000
+
+    add photos to services sections
+
+[33mcommit 800352997c540e9beec5f5f684f12db8dbbc953f[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Sat Mar 2 11:37:59 2024 +0000
+
+    add info to all services sections
+
+[33mcommit 0304875015ebf2d9b51a2caa33f4410fb5b44f4a[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Sat Mar 2 10:49:24 2024 +0000
+
+    add info to about-us section and 'read with me' section
+
+[33mcommit 92beb41ed9fe468a6dab6308f688f342372b81c7[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Sat Mar 2 10:06:02 2024 +0000
+
+    add sections for services & about us to home page
+
+[33mcommit 7b8d841af366b9cdd67e356bc25c43ee417f19c2[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Wed Feb 28 20:50:15 2024 +0000
+
+    make text fit on hero image and center it
+
+[33mcommit eb1d9ee543cb0e538f5b60aadf950022dbff9364[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Wed Feb 28 19:14:50 2024 +0000
+
+    change hero image
+
+[33mcommit 7e91381d8f9987995ef4ad2eeb7bd28e0a19a95f[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Sat Feb 24 13:56:03 2024 +0000
+
+    add favicon
+
+[33mcommit 72d8cc6254c42d0c5524b3fb946b849d4bafaf7b[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Fri Feb 23 17:17:17 2024 +0000
+
+    add text overlay to hero image
+
+[33mcommit 83e872596fc9b5f6f8cfe2cc92376840044bc96a[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Fri Feb 23 16:17:37 2024 +0000
+
+    fix file path for hero image
+
+[33mcommit 7dfa808e5eed85b09121e1eeec95aa432693afc6[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Fri Feb 23 16:07:47 2024 +0000
+
+    add hero image
+
+[33mcommit 4b5e30ca8d59e5a5b0c181d80f1e270d742ef846[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Fri Feb 23 15:14:55 2024 +0000
+
+    style footer and Social Media links
+
+[33mcommit ed6e57adf204592660909292794135850fac74b6[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Fri Feb 23 15:01:45 2024 +0000
+
+    add more styling to header for all devices and creating and styling drop-down menu
+
+[33mcommit abfa1b927ea9411951d1293b3c8ddd3abc39341c[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Fri Feb 23 12:08:58 2024 +0000
+
+    create and link 'services' and 'register' pages to main page'
+
+[33mcommit 176536208dfffa027802a9de8ba5dc974a1d3201[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Thu Feb 22 17:46:02 2024 +0000
+
+    add social media links and style footer
+
+[33mcommit adb9803d9c9cced380031a85bfeb0b0f268b73c7[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Thu Feb 22 16:52:16 2024 +0000
+
+    add image to header
+
+[33mcommit 996ffcab64245e8072953212f9280f1d01e4bfa6[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Thu Feb 22 15:27:24 2024 +0000
+
+    create navigation section
+
+[33mcommit 46755a86b9757ceed4b86665c4343511b587a8bd[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Thu Feb 22 15:06:03 2024 +0000
+
+    change font
+
+[33mcommit 11c2efa34b8a38a72dbf68da3198337a04f967ed[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Thu Feb 22 15:03:00 2024 +0000
+
+    add font from google fonts (Anton), change color of font & background
+
+[33mcommit 319698d77ef80880bb06b24ac353798ed9fd67cd[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Thu Feb 22 14:38:38 2024 +0000
+
+    push footer down using flexstyles
+
+[33mcommit 80a0989eb2cb7099e127e9938b05d811bef1644d[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Thu Feb 22 14:27:39 2024 +0000
+
+    add basic style and stylesheet
+
+[33mcommit 07b9628a778b11abe13bcc98c167c5ced8b5ceb8[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Thu Feb 22 13:21:58 2024 +0000
+
+    add basic structure
+
+[33mcommit 933eae27a22f192682915d713ea3ea04c0824104[m
+Author: EdwardJWalsh <155949281+EdwardJWalsh@users.noreply.github.com>
+Date:   Thu Feb 22 12:44:40 2024 +0000
+
+    add title
