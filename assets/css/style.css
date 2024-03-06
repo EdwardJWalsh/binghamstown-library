@@ -182,6 +182,13 @@ main {
     background-color: rgb(121, 120, 120);
 }
 
+#video {
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+}
+
 #social-networks {
     color:black;
 }
