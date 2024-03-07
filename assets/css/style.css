@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Protest+Strike&display=swap');
 
 /* Asterisk wildcard selector to override default browser settings*/
 
@@ -41,7 +40,6 @@ body {
     }
     
       h2  {
-        font-family: 'Anton', sans-serif;
         color:black;
         text-transform:uppercase;
         letter-spacing: 3px;
@@ -163,10 +161,12 @@ main {
 }
 
 #about-us{
-        background-color: rgb(121, 120, 120);
         min-height:10rem;
         text-align: center;
         padding: 20PX;
+        background-color: #061E45;
+        background: linear-gradient(to bottom, #7c7c86, transparent);
+        text-align: center;
 }
 
 #opening-times {
@@ -179,7 +179,9 @@ main {
 }
 
 #contact-us {
-    background-color: rgb(121, 120, 120);
+    background-color: #061E45;
+    background: linear-gradient(to bottom, #7c7c86, transparent);
+    text-align: center;
 }
 
 #video {
@@ -237,7 +239,7 @@ margin-top: 79px;
     margin-bottom: 20px;
     padding:20px;
     background-color: #061E45;
-    background: linear-gradient(to bottom, #CBCBD4, transparent);
+    background: linear-gradient(to bottom, #7c7c86, transparent);
     text-align: center;
 }
 
@@ -262,7 +264,7 @@ margin-top: 79px;
     margin-bottom: 20px;
     padding:20px;
     background-color: #061E45;
-    background: linear-gradient(to bottom, #CBCBD4, transparent);
+    background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 
 .older-person-using-pc {
@@ -284,7 +286,7 @@ margin-top: 79px;
     align-items: center;
     padding:20px;
     background-color: #061E45;
-    background: linear-gradient(to bottom, #CBCBD4, transparent);
+    background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 
 .desktop-computers {
@@ -307,7 +309,7 @@ margin-top: 79px;
     align-items: center;
     padding:20px;
     background-color: #061E45;
-    background: linear-gradient(to bottom, #CBCBD4, transparent);
+    background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 
 .physical-media-collection{
@@ -328,7 +330,7 @@ margin-top: 79px;
     align-items: center;
     padding:20px;
     background-color: #061E45;
-    background: linear-gradient(to bottom, #CBCBD4, transparent);
+    background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 
 .board-games{
@@ -351,7 +353,7 @@ margin-top: 79px;
     align-items: center;
     padding:20px;
     background-color: #061E45;
-    background: linear-gradient(to bottom, #CBCBD4, transparent);
+    background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 
 .family-tree {
