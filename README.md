@@ -74,6 +74,8 @@ There was also a suggestion to use alternative syntax for my headers on all thre
 
 ![README_HTML_Validation](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/984df3dc-fb40-4226-9108-32ed52d4e173)
 
+# Accessibility
+
 I ran my page through Lighthouse and found it had a high accessibility rating:
 
 ![readme_lighthouse](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/ad42a6ae-72dc-4d4a-a901-43f52af0cd86)
