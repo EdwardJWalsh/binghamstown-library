@@ -5,9 +5,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 
-/* General Styles */
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+ }
+
+
+ /* General Styles */
 
 h1 {
     text-align: center;
@@ -196,7 +206,8 @@ main {
 }
 
 #signup {
-    background-color: aqua;
+    text-align: center;
+    background: linear-gradient(to bottom, #7c7c86, transparent);
     text-align: center;
 }
 @media screen and (min-width:768px) {
