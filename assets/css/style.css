@@ -1,3 +1,4 @@
+
 /* Asterisk wildcard selector to override default browser settings*/
 
 *{
@@ -6,24 +7,18 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 
     font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
- }
-
-
- /* General Styles */
-
+    font-optical-sizing:auto;
+    font-style:normal;
+}
+/* General Styles */
 h1 {
     text-align: center;
     text-decoration: underline;
     height: 60px;
 }
-
 h2 {
     text-align: center;
 }
@@ -31,10 +26,7 @@ body {
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-
-
     /* Generic page styles */
-
     color: rgb (121, 120, 120);
     font-weight: 400;
     font-style: normal;
@@ -47,8 +39,9 @@ body {
         letter-spacing: 5px;
         font-weight: 300;
     }
-    
+
       h2  {
+        font-family: 'Anton', sans-serif;
         color:black;
         text-transform:uppercase;
         letter-spacing: 3px;
@@ -59,14 +52,11 @@ body {
         text-transform:uppercase;
         letter-spacing: 3px;
     }
-
-
     p {
         font-weight: 100;
     }
     
 /* Header */
-
 header {
     background-color: rgb(255, 255, 255);
     padding: 0 0.5rem;
@@ -78,27 +68,22 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
-
 header a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
     list-style-type: none;
     font-style: normal;
 }
-
 #menu > li {
     margin-bottom: 1em;
 }
-
 .active {
     border-bottom: 1px solid rgb(121, 120, 120);
 }
-
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -110,22 +95,17 @@ nav {
     display:none;
     top:100%;
 }
-
 /*Nav toggle*/
-
 #nav-toggle:checked~nav {
     display:block;
 }
-
 #nav-toggle {
     display:none;
 }
-
 .nav-toggle-label {
     font-size: 2rem;
 }
 /* Main Content*/
-
 main {
     
     /* Make main element push footer down */
@@ -133,9 +113,7 @@ main {
     flex: 1 0 auto;
     margin-top:47px;
 }
-
 /* Hero section*/
-
 #hero {
     background: url(../images/pexels-pixabay-159711.jpg)
     no-repeat center center/cover;
@@ -146,11 +124,9 @@ main {
     align-items: center;
     justify-content: center;
 }
-
 #hero h2, h3 {
      letter-spacing: 5px;
 }
-
 #cover-text {
     background-color: rgb(121, 120, 120, 0.5);
     font-size:100%;
@@ -164,12 +140,12 @@ main {
     padding: 40px;
     text-align: center;
 }
-
 #cover-text > h2, #cover-text > h3 {
     color: rgb(255, 255, 255);
 }
 
 #about-us{
+        background-color: rgb(121, 120, 120);
         min-height:10rem;
         text-align: center;
         padding: 20PX;
@@ -182,12 +158,12 @@ main {
     background: url(../images/pexels-pixabay-159711.jpg)
     no-repeat center center/cover;
 }
-
 #opening-times > h1 {
     color: white;
 }
 
 #contact-us {
+    background-color: rgb(121, 120, 120);
     background-color: #061E45;
     background: linear-gradient(to bottom, #7c7c86, transparent);
     text-align: center;
@@ -199,17 +175,13 @@ main {
             align-items: center;
             height: 100vh;
 }
-
 #social-networks {
     color:black;
 }
-
 #signup {
-    text-align: center;
-    background: linear-gradient(to bottom, #7c7c86, transparent);
+    background-color: aqua;
     text-align: center;
 }
-
 @media screen and (min-width:768px) {
     /* Header */
     nav {display: block;
@@ -218,36 +190,29 @@ main {
          width:fit-content;
          padding-right:1rem;
  }
-
 #menu {
 display:flex;
 }
 #menu > li {
 padding-left: 1rem;
 }
-
 .nav-toggle-label {
 display:none;
 }
-
 #logo {
-    font-size: 200%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-  }
-  
-  @media screen and (max-width: 768px) {
-    #logo {
-      font-size: 150%;
-      line-height: 50px;
-    }
-  }
+font-size:200%;
+line-height: 75px;
+margin: 0 0.5rem;
+}
 /* Main content */
-
 main {
 /*push main content down to accomodate larger header */
 margin-top: 79px;
 }
+}
+
+#signup {
+    background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 /*services section images and layout*/
 .read-with-me {
@@ -266,22 +231,20 @@ margin-top: 79px;
     height:auto;
     order:1;
 }
-
 .read-with-me-text {
     flex: 1;
     margin-right: 0;
     text-align: center;
     padding:20px;
-    color:#000000;
+    color: #000000 ;
 }
-
 .computer-classes {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
     padding:20px;
-    background-color: #061E45;
+    background-color: #000000;
     background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 
@@ -289,15 +252,13 @@ margin-top: 79px;
     max-width: 300px;
     height:auto;
 }
-
 .computer-classes-text {
     flex: 1;
     margin-left: 0;
     text-align: center;
     padding:20px;
-    color:#000000;
+    color: #000000;
 }
-
 .public-computers {
     display: flex;
     flex-direction: column;
@@ -312,15 +273,13 @@ margin-top: 79px;
     height:auto;
     order:1;
 }
-
 .public-computers-text {
     flex: 1;
     margin-left: 0;
     text-align: center;
     padding:20px;
-    color:#000000;
+    color: #000000;
 }
-
 .physical-media{
     display: flex;
     flex-direction: column;
@@ -339,9 +298,8 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
-    color:#000000;
+    color: #000000;
 }
-
 .board-game-nights{
     display: flex;
     flex-direction: column;
@@ -356,15 +314,13 @@ margin-top: 79px;
     height:auto;
     order:1;
 }
-
 .board-games-text{
     flex:1;
     margin-left: 0;
     text-align: center;
     padding:20px;
-    color:#000000;
+    color: #000000;
 }
-
 .genealogy-service {
     display: flex;
     flex-direction: column;
@@ -378,16 +334,13 @@ margin-top: 79px;
     max-width: 300px;
     height:auto;
 }
-
 .genealogy-service-text {
     flex:1;
     margin-left: 0;
     text-align: center;
     padding:20px;
-    color:#000000;
+    color: #000000;
 }
-
-
 th, td {
     border: 1px solid #ddd;
     text-align: left;
@@ -395,11 +348,9 @@ th, td {
     background-color: #fff;
 }
 /* Footer */
-
 footer {
     background-color: rgb(252, 252, 252);
 }
-
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -407,15 +358,13 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
 }
-
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #000000;
+    color:  #000000;
 }
 /* Media query: tablets and larger (768px and up) */
-
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
            /* Header */
            nav {display: block;
                 position: relative;
@@ -423,54 +372,41 @@ footer {
                 width:fit-content;
                 padding-right:1rem;
         }
-    }
-
 #menu {
     display:flex;
 }
 #menu > li {
      padding-left: 1rem;
     }
-
 .nav-toggle-label {
     display:none;
 }
-
 #logo {
     font-size:200%;
     line-height: 75px;
     margin: 0 0.5rem;
 }
 /* Main content */
-
 main {
     /*push main content down to accomodate larger header */
     margin-top: 79px;
 }
-
-#video-text{
-    text-align: center;
 }
-
 /* Large devices (laptops and desktops, 992px and up) */
-
 @media screen and (min-width:900px) {
     #menu a:hover {
         border-bottom: 1px solid rgb(121, 120, 120);
     }
 }
-
 @media only screen and (max-width: 600px) {
-
+   
     .children-reading {
        width: 600px;
     }
-
     .read-with-me-text {
         margin-left: 0;
         flex:100%;
     }
-
     .read-with-me {
         margin-bottom: 10px;
     }
@@ -484,7 +420,6 @@ main {
         margin-left: 0;
         flex:100%;
     }
-
     .desktop-computers {
         width:100%;
         order:2;
@@ -494,27 +429,22 @@ main {
         margin-left: 0;
         flex:100%;
     }
-
     .physical-media-collection {
         width:100%;
         order:2;
     }
-
     .DVD-collection {
         margin-left: 0;
         flex:100%;
     }
-
     .board-games {
         width:100%;
         order:2;
     }
-
     .board-games-text {
         margin-left: 0;
         flex:100%;
     }
-
     .family-tree {
         width:100%;
         order:2;
@@ -524,16 +454,6 @@ main {
         margin-left: 0;
         flex:100%;
     }
-    #logo {
-        font-size: 150%;
-        line-height: 50px;
-        margin: 1rem 0;
-        text-align: center;
-        width: 100%;
-        max-width: 100%; /* Ensure the logo doesn't exceed 100% of its container */
-        white-space: nowrap;
-    }
-
 }
 @media only screen and (min-width: 601px) {
    
@@ -547,11 +467,9 @@ main {
         margin-bottom:0;
         margin-right:20px;
     }
-
     .read-with-me-text {
         text-align: left;
     }
-
     .computer-classes {
         flex-direction: row;
         justify-content: space-between;
@@ -587,12 +505,10 @@ main {
         justify-content: space-between;
         align-items: flex-start;
     }
-
     .physical-media-collection {
         margin-bottom:0;
         margin-right:20px;
     }
-
     .DVD-collection {
         text-align: left;
     }
@@ -605,7 +521,6 @@ main {
         margin-bottom:0;
         margin-right:20px;
     }
-
     .board-games-text {
         text-align: left;
     }
@@ -622,7 +537,4 @@ main {
     .genealogy-service-text {
         text-align: left;
     }
-
-
 }
-
