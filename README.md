@@ -81,7 +81,15 @@ I ran my page through Lighthouse and found it had a high accessibility rating:
 ![readme_lighthouse](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/ad42a6ae-72dc-4d4a-a901-43f52af0cd86)
 
 # Deployment
-The page was deplied through GitHub Pages.
+The page was deplied through GitHub Pages. The steps to deploy are as follows:
+* In the GitHub repository, go to the Settings tab
+* Go to the Pages section on the menu on the left hand side of the page
+* In the Source drop-down menu select 'Deply from a branch'
+* Under 'Branch' select 'Main'
+* Select '/(root) in the Folder drop-down menu
+* Select 'save'
+* The link to the site will appear at the top of the screen with a link.
+
 The live link can be found here - https://edwardjwalsh.github.io/binghamstown-library/
 
 # Credits
