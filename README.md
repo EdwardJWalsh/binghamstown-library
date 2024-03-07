@@ -78,8 +78,15 @@ I ran my page through Lighthouse and found it had a high accessibility rating:
 
 ![readme_lighthouse](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/ad42a6ae-72dc-4d4a-a901-43f52af0cd86)
 
-#Deployment
+# Deployment
 The page was deplied through GitHub Pages.
+The live link can be found here - https://edwardjwalsh.github.io/binghamstown-library/
+
+# Credits
+The code made to include the social media links and the media queries was taken from Love Running project, as well as the code for the register form.
+The video was uploaded from Youtube at the following link -"https://www.youtube.com/embed/6Py3j3OyRPM"
+The images on the site were uploaded from Pexels.com and Stocksnap.com
+
 
 
 
