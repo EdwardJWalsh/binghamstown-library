@@ -22,12 +22,15 @@ Users of this website will be able to find all the information they need about o
 
 * This makes the website easy to navigate on any screen size.
 
-## The services page
+## The Services page
 * This page displays all of the services on offer in the library with information about each one and an image for clarity.
 
 ![README_services_page#1](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/41eb2a77-826c-460c-9c74-2a63caab43c9)
 ![README_services_page#2](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/3cc5e11d-966f-488f-b999-976137505616)
 ![README_services_page#3](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/69482169-8433-4410-887f-64460478e4ec)
+
+## The Register page
+* This page contains a form for registering for the library along with a video on the benefits of reading.
 
 
 
