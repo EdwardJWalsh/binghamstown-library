@@ -254,7 +254,7 @@ margin-top: 79px;
     margin-right: 0;
     text-align: center;
     padding:20px;
-    color:#D4AF37;
+    color:#000000;
 }
 
 .computer-classes {
@@ -277,7 +277,7 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
-    color:#D4AF37;
+    color:#000000;
 }
 
 .public-computers {
@@ -300,7 +300,7 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
-    color:#D4AF37;
+    color:#000000;
 }
 
 .physical-media{
@@ -321,7 +321,7 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
-    color:#D4AF37;
+    color:#000000;
 }
 
 .board-game-nights{
@@ -344,7 +344,7 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
-    color:#D4AF37;
+    color:#000000;
 }
 
 .genealogy-service {
@@ -366,7 +366,7 @@ margin-top: 79px;
     margin-left: 0;
     text-align: center;
     padding:20px;
-    color:#D4AF37;
+    color:#000000;
 }
 
 
@@ -393,7 +393,7 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #000000;
 }
 /* Media query: tablets and larger (768px and up) */
 
