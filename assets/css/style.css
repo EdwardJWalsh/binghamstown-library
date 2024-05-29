@@ -193,6 +193,11 @@ main {
     text-align: center;
 }
 
+/* Services section */
+#services {
+    margin-top: 100px; /* Adjust this value as needed to create space between the main header and the services content */
+}
+
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -242,15 +247,15 @@ main {
 }
 
 .read-with-me {
-    background-color: #061E45;
+    background-color: #bbc7da;
 }
 
 .computer-classes {
-    background-color: #000000;
+    background-color: #bbc7da;
 }
 
 .public-computers, .physical-media, .board-game-nights, .genealogy-service {
-    background-color: #061E45;
+    background-color: #bbc7da;
 }
 
 .children-reading, .older-person-using-pc, .desktop-computers, .physical-media-collection, .board-games, .family-tree {
@@ -356,4 +361,10 @@ footer {
         justify-content: space-between;
         align-items: flex-start;
     }
-} 
+}
+
+@media screen and (max-width: 767px) {
+    #services {
+        margin-top: 100px; /* Increase the margin for smaller screens to prevent overlap */
+    }
+}
