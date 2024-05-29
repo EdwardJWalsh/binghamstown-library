@@ -3,12 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
     font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
 }
 
 /* General Styles */
@@ -16,10 +12,18 @@ h1 {
     text-align: center;
     text-decoration: underline;
     height: 60px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 300;
 }
 
 h2 {
     text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 body {
@@ -29,20 +33,6 @@ body {
     color: rgb(121, 120, 120);
     font-weight: 400;
     font-style: normal;
-}
-
-h1 {
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight: 300;
-}
-
-h2 {
-    font-family: 'Anton', sans-serif;
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 3px;
 }
 
 h3 {
@@ -116,8 +106,8 @@ nav {
 /* Main Content */
 main {
     flex: 1 0 auto;
-    margin-top: 60px; /* Adjust this value to the height of your header */
-    padding-top: 20px; /* Add some padding to prevent overlap */
+    margin-top: 60px;
+    padding-top: 20px; 
 }
 
 /* Hero section */
@@ -154,7 +144,6 @@ main {
 }
 
 #about-us {
-    background-color: rgb(121, 120, 120);
     min-height: 10rem;
     text-align: center;
     padding: 20px;
@@ -164,15 +153,22 @@ main {
 
 #opening-times {
     background: url(../images/pexels-pixabay-159711.jpg) no-repeat center center/cover;
+    text-align: center; 
+    padding: 20px; 
+    color: white; 
 }
 
-#opening-times > h1 {
-    color: white;
+#opening-times h1 {
+    margin-bottom: 20px; 
+}
+
+#opening-times table {
+    margin: 0 auto; 
+    color: black; 
 }
 
 #contact-us {
     background-color: rgb(121, 120, 120);
-    background-color: #061E45;
     background: linear-gradient(to bottom, #7c7c86, transparent);
     text-align: center;
 }
@@ -189,7 +185,7 @@ main {
 }
 
 #signup {
-    background-color: aqua;
+    background: linear-gradient(to bottom, #7c7c86, transparent);
     text-align: center;
 }
 
@@ -230,10 +226,6 @@ main {
     main {
         margin-top: 79px;
     }
-}
-
-#signup {
-    background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 
 /* Services section images and layout */
@@ -296,41 +288,6 @@ footer {
     color: #000000;
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    #menu > li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 200%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /* Main content */
-    main {
-        margin-top: 79px;
-    }
-}
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 900px) {
     #menu a:hover {
@@ -365,6 +322,6 @@ footer {
 
 @media screen and (max-width: 767px) {
     #services {
-        margin-top: 100px; /* Increase the margin for smaller screens to prevent overlap */
+        margin-top: 100px;
     }
 }
