@@ -1,163 +1,171 @@
-
 /* Asterisk wildcard selector to override default browser settings*/
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-
     font-family: "Roboto Mono", monospace;
-    font-optical-sizing:auto;
-    font-style:normal;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 /* General Styles */
 h1 {
     text-align: center;
     text-decoration: underline;
     height: 60px;
 }
+
 h2 {
     text-align: center;
 }
+
 body {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    /* Generic page styles */
-    color: rgb (121, 120, 120);
+    color: rgb(121, 120, 120);
     font-weight: 400;
     font-style: normal;
-   }
-    
-   
-      h1 {
-        color:black;
-        text-transform:uppercase;
-        letter-spacing: 5px;
-        font-weight: 300;
-    }
+}
 
-      h2  {
-        font-family: 'Anton', sans-serif;
-        color:black;
-        text-transform:uppercase;
-        letter-spacing: 3px;
-    }
-  
-      h3 {
-        color:black;
-        text-transform:uppercase;
-        letter-spacing: 3px;
-    }
-    p {
-        font-weight: 100;
-    }
-    
+h1 {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h3 {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    font-weight: 100;
+}
+
 /* Header */
 header {
     background-color: rgb(255, 255, 255);
-    padding: 0 0.5rem;
-    position:fixed;
-    z-index:99;
-    width:100%;
-    box-shadow: 0 2px 4px rgb(121, 120, 120) ;
-    display:flex;
+    padding: 20px 0.5rem 0.5rem; /* Increase top padding to create space */
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 4px rgb(121, 120, 120);
+    display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
+
 header a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
     list-style-type: none;
     font-style: normal;
 }
+
 #menu > li {
     margin-bottom: 1em;
 }
+
 .active {
     border-bottom: 1px solid rgb(121, 120, 120);
 }
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    width:100%;
+    width: 100%;
     left: 0;
     padding: 0 2rem;
     box-shadow: 0 2px 4px rgb(121, 120, 120);
-    display:none;
-    top:100%;
+    display: none;
+    top: 100%;
 }
-/*Nav toggle*/
+
+/* Nav toggle */
 #nav-toggle:checked~nav {
-    display:block;
+    display: block;
 }
+
 #nav-toggle {
-    display:none;
+    display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
-/* Main Content*/
+
+/* Main Content */
 main {
-    
-    /* Make main element push footer down */
-    
     flex: 1 0 auto;
-    margin-top:47px;
+    margin-top: 60px; /* Adjust this value to the height of your header */
+    padding-top: 20px; /* Add some padding to prevent overlap */
 }
-/* Hero section*/
+
+/* Hero section */
 #hero {
-    background: url(../images/pexels-pixabay-159711.jpg)
-    no-repeat center center/cover;
-    background-size:cover;
+    background: url(../images/pexels-pixabay-159711.jpg) no-repeat center center/cover;
+    background-size: cover;
     background-position: center;
     height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 #hero h2, h3 {
-     letter-spacing: 5px;
+    letter-spacing: 5px;
 }
+
 #cover-text {
-    background-color: rgb(121, 120, 120, 0.5);
-    font-size:100%;
+    background-color: rgba(121, 120, 120, 0.5);
+    font-size: 100%;
     font-style: normal;
-    position:absolute;
-    top:25%;
-    left:50%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    width:80%;
-    min-height:10rem;
+    width: 80%;
+    min-height: 10rem;
     padding: 40px;
     text-align: center;
 }
+
 #cover-text > h2, #cover-text > h3 {
     color: rgb(255, 255, 255);
 }
 
-#about-us{
-        background-color: rgb(121, 120, 120);
-        min-height:10rem;
-        text-align: center;
-        padding: 20PX;
-        background-color: #061E45;
-        background: linear-gradient(to bottom, #7c7c86, transparent);
-        text-align: center;
+#about-us {
+    background-color: rgb(121, 120, 120);
+    min-height: 10rem;
+    text-align: center;
+    padding: 20px;
+    background-color: #061E45;
+    background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 
 #opening-times {
-    background: url(../images/pexels-pixabay-159711.jpg)
-    no-repeat center center/cover;
+    background: url(../images/pexels-pixabay-159711.jpg) no-repeat center center/cover;
 }
+
 #opening-times > h1 {
     color: white;
 }
@@ -171,186 +179,104 @@ main {
 
 #video {
     display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
 #social-networks {
-    color:black;
+    color: black;
 }
+
 #signup {
     background-color: aqua;
     text-align: center;
 }
-@media screen and (min-width:768px) {
+
+@media screen and (min-width: 768px) {
     /* Header */
-    nav {display: block;
-         position: relative;
-         box-shadow: none;
-         width:fit-content;
-         padding-right:1rem;
- }
-#menu {
-display:flex;
-}
-#menu > li {
-padding-left: 1rem;
-}
-.nav-toggle-label {
-display:none;
-}
-#logo {
-font-size:200%;
-line-height: 75px;
-margin: 0 0.5rem;
-}
-/* Main content */
-main {
-/*push main content down to accomodate larger header */
-margin-top: 79px;
-}
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        margin-top: 79px;
+    }
 }
 
 #signup {
     background: linear-gradient(to bottom, #7c7c86, transparent);
 }
-/*services section images and layout*/
+
+/* Services section images and layout */
+.read-with-me, .computer-classes, .public-computers, .physical-media, .board-game-nights, .genealogy-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #7c7c86, transparent);
+}
+
 .read-with-me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    padding:20px;
     background-color: #061E45;
-    background: linear-gradient(to bottom, #7c7c86, transparent);
-    text-align: center;
 }
 
-.children-reading {
-    max-width: 300px;
-    height:auto;
-    order:1;
-}
-.read-with-me-text {
-    flex: 1;
-    margin-right: 0;
-    text-align: center;
-    padding:20px;
-    color: #000000 ;
-}
 .computer-classes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    padding:20px;
     background-color: #000000;
-    background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 
-.older-person-using-pc {
-    max-width: 300px;
-    height:auto;
+.public-computers, .physical-media, .board-game-nights, .genealogy-service {
+    background-color: #061E45;
 }
-.computer-classes-text {
+
+.children-reading, .older-person-using-pc, .desktop-computers, .physical-media-collection, .board-games, .family-tree {
+    max-width: 300px;
+    height: auto;
+}
+
+.read-with-me-text, .computer-classes-text, .public-computers-text, .DVD-collection, .board-games-text, .genealogy-service-text {
     flex: 1;
-    margin-left: 0;
     text-align: center;
-    padding:20px;
+    padding: 20px;
     color: #000000;
-}
-.public-computers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:20px;
-    background-color: #061E45;
-    background: linear-gradient(to bottom, #7c7c86, transparent);
 }
 
-.desktop-computers {
-    max-width: 300px;
-    height:auto;
-    order:1;
-}
-.public-computers-text {
-    flex: 1;
-    margin-left: 0;
-    text-align: center;
-    padding:20px;
-    color: #000000;
-}
-.physical-media{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:20px;
-    background-color: #061E45;
-    background: linear-gradient(to bottom, #7c7c86, transparent);
-}
-
-.physical-media-collection{
-    max-width: 300px;
-    height:auto;
-}
-.DVD-collection {
-    flex:1;
-    margin-left: 0;
-    text-align: center;
-    padding:20px;
-    color: #000000;
-}
-.board-game-nights{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:20px;
-    background-color: #061E45;
-    background: linear-gradient(to bottom, #7c7c86, transparent);
-}
-
-.board-games{
-    max-width: 300px;
-    height:auto;
-    order:1;
-}
-.board-games-text{
-    flex:1;
-    margin-left: 0;
-    text-align: center;
-    padding:20px;
-    color: #000000;
-}
-.genealogy-service {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:20px;
-    background-color: #061E45;
-    background: linear-gradient(to bottom, #7c7c86, transparent);
-}
-
-.family-tree {
-    max-width: 300px;
-    height:auto;
-}
-.genealogy-service-text {
-    flex:1;
-    margin-left: 0;
-    text-align: center;
-    padding:20px;
-    color: #000000;
-}
 th, td {
     border: 1px solid #ddd;
     text-align: left;
     padding: 8px;
     background-color: #fff;
 }
+
 /* Footer */
 footer {
     background-color: rgb(252, 252, 252);
 }
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -358,183 +284,76 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color:  #000000;
+    color: #000000;
 }
+
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width:768px) {
-           /* Header */
-           nav {display: block;
-                position: relative;
-                box-shadow: none;
-                width:fit-content;
-                padding-right:1rem;
-        }
-#menu {
-    display:flex;
-}
-#menu > li {
-     padding-left: 1rem;
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
-.nav-toggle-label {
-    display:none;
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        margin-top: 79px;
+    }
 }
-#logo {
-    font-size:200%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-}
-/* Main content */
-main {
-    /*push main content down to accomodate larger header */
-    margin-top: 79px;
-}
-}
+
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width:900px) {
+@media screen and (min-width: 900px) {
     #menu a:hover {
         border-bottom: 1px solid rgb(121, 120, 120);
     }
 }
+
 @media only screen and (max-width: 600px) {
-   
-    .children-reading {
-       width: 600px;
+    .children-reading, .older-person-using-pc, .desktop-computers, .physical-media-collection, .board-games, .family-tree {
+        width: 100%;
+        order: 2;
     }
-    .read-with-me-text {
+
+    .read-with-me-text, .computer-classes-text, .public-computers-text, .DVD-collection, .board-games-text, .genealogy-service-text {
         margin-left: 0;
-        flex:100%;
+        flex: 100%;
     }
-    .read-with-me {
-        margin-bottom: 10px;
-    }
-    
-    .older-person-using-pc{
-        width:100%;
-        order:2;
-    }
-        
-    .computer-classes-text{
-        margin-left: 0;
-        flex:100%;
-    }
-    .desktop-computers {
-        width:100%;
-        order:2;
-    }
-    
-    .public-computers-text {
-        margin-left: 0;
-        flex:100%;
-    }
-    .physical-media-collection {
-        width:100%;
-        order:2;
-    }
-    .DVD-collection {
-        margin-left: 0;
-        flex:100%;
-    }
-    .board-games {
-        width:100%;
-        order:2;
-    }
-    .board-games-text {
-        margin-left: 0;
-        flex:100%;
-    }
-    .family-tree {
-        width:100%;
-        order:2;
-    }
-    
-    .genealogy-service-text {
-        margin-left: 0;
-        flex:100%;
+
+    .read-with-me, .computer-classes, .public-computers, .physical-media, .board-game-nights, .genealogy-service {
+        flex-direction: column;
+        align-items: center;
     }
 }
+
 @media only screen and (min-width: 601px) {
-   
-    .read-with-me {
+    .read-with-me, .computer-classes, .public-computers, .physical-media, .board-game-nights, .genealogy-service {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
     }
-    
-    .children-reading {
-        margin-bottom:0;
-        margin-right:20px;
-    }
-    .read-with-me-text {
-        text-align: left;
-    }
-    .computer-classes {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    
-    .older-person-using-pc{
-        margin-bottom:0;
-        margin-right:20px;
-    }
-        
-    .computer-classes-text{
-        text-align: left;
-    }
-   
-    .public-computers {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    
-    .desktop-computers {
-        margin-bottom:0;
-        margin-right:20px;
-    }
-    
-    .public-computers-text {
-        text-align: left;
-    }
-    
-    .physical-media {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .physical-media-collection {
-        margin-bottom:0;
-        margin-right:20px;
-    }
-    .DVD-collection {
-        text-align: left;
-    }
-    .board-game-nights {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .board-games {
-        margin-bottom:0;
-        margin-right:20px;
-    }
-    .board-games-text {
-        text-align: left;
-    }
-    .genealogy-service{
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .family-tree {
-        margin-bottom:0;
-        margin-right:20px;
-    }
-    
-    .genealogy-service-text {
-        text-align: left;
-    }
-}
+} 
