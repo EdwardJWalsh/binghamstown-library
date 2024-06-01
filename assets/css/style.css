@@ -187,6 +187,7 @@ main {
 #signup {
     background: linear-gradient(to bottom, #7c7c86, transparent);
     text-align: center;
+    padding-top: 80px; /* Adjusted padding for small screens */
 }
 
 /* Services section */
@@ -309,6 +310,10 @@ footer {
     .read-with-me, .computer-classes, .public-computers, .physical-media, .board-game-nights, .genealogy-service {
         flex-direction: column;
         align-items: center;
+    }
+
+    #signup {
+        padding-top: 120px; /* Increased padding for smaller screens */
     }
 }
 
