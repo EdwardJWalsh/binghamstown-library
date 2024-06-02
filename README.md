@@ -4,8 +4,7 @@ The Binghamstown Library website is the official website for Binghamstown Librar
 
 Users of this website will be able to find all the information they need about our library and range of services as well as opening times, how to contact us and the register form. This site is targeted towards people of all ages.
 
-
-![README_am_i_responsive](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/9900ba6c-d089-46bb-b681-2a1f93b48b68)
+![02 06 2024_am i responsive](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/8c3aea7a-e53c-40ca-9e73-8d939fe98849)
 
 # Features
 
@@ -27,21 +26,23 @@ Users of this website will be able to find all the information they need about o
 
 * The about us section describes the ethos of the library:
 
-![README_about_us](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/f12ff1c4-80d2-43e0-98d9-3e3d47c14f9e)
+![02 06 2024_about us](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/83c414de-cdff-497c-903c-15da676e9ebf)
 
 ## Opening Times
 
 * The opening times table allows users to see our business hours in a clear and well laid out way:
 
-![README_opening_times](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/504a8449-cd1b-4e0c-bfbf-603f7c137e49)
+![02 06 2024_opening times](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/dc20587e-3887-423d-8401-5fcdc84d1727)
 
 ## The Services page
 
 * This page displays all of the services on offer in the library with information about each one and an image for clarity.
 
-![README_services_page#1](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/41eb2a77-826c-460c-9c74-2a63caab43c9)
-![README_services_page#2](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/3cc5e11d-966f-488f-b999-976137505616)
-![README_services_page#3](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/69482169-8433-4410-887f-64460478e4ec)
+![02 06 2024_services_img_1](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/ca04c9dc-874c-4f69-956f-37300fd1ad80)
+
+![02 06 2024_services_img_2](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/f0194d93-b7c5-41de-a7f6-b497880cdcf9)
+
+![02 06 2024_services_img_3](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/44499311-0a54-49f6-8143-6c18026f2ef6)
 
 ## The Register page
 * This page contains a form for registering for the library along with a short video on the benefits of reading.
@@ -59,26 +60,31 @@ Users of this website will be able to find all the information they need about o
 
 * I found that my images were not showing up in browsers after deploying the site, this was because I used absolute file paths in stead of relative ones. After changing these the images showed up correctly.
 * The images and text in the 'services' section were not stacking as I would like them to when I deployed the site. I was able to fix this using media queries.
-* I found that the text in the logo migrated down to the div below this when viewd on smaller screens. I suspect this is due to my query media settings. Unfortunately I was not able to fix this bug.
+* I found that the text in the logo migrated down to the div below this when viewed on smaller screens. I suspected this is due to my query media settings, I was able to fix this after changing my media query settings.
 
 # Validator Testing
 
-##CSS
+## CSS
 No errors were found whhen running the code through the official (Jigsaw) validator
 
-![README_CSS_Validation](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/232a4bb1-a0f3-4b0a-b870-d73bd6d6f994)
+![02 06 2024_css_validator](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/6894e533-1815-4ea3-ba71-90feee91e6a3)
 
-##HTML
-One error was found when running through the official HTML validator, as far as I can see this is not a 'stray end tag' and is actually the closing tag for the above section. (Pictures included):
-There was also a suggestion to use alternative syntax for my headers on all three HTML pages, although I found this one to be the one that suited best.
 
-![README_HTML_Validation](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/984df3dc-fb40-4226-9108-32ed52d4e173)
+## HTML
+No errors were found when running all pages through the official HTML code checker
+
+![02 06 2024_html_validator_pg_1](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/5cb488fc-0c03-46e9-9b00-2aa1182216f8)
+
+![02 06 2024_html_validator_pg_2](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/562d6e62-e486-458d-8b84-9ae8d950d28a)
+
+![02 06 2024_html_validator_pg_3](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/9466b5c7-1cc0-465a-99b4-c590806f4877)
 
 # Accessibility
 
-I ran my page through Lighthouse and found it had a high accessibility rating:
+I ran my page through Lighthouse and found it had a perfect accessibility rating:
 
-![readme_lighthouse](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/ad42a6ae-72dc-4d4a-a901-43f52af0cd86)
+![02 06 2024_lighthouse results](https://github.com/EdwardJWalsh/binghamstown-library/assets/155949281/7442db8e-2774-47dc-8db2-5a83b8e69d50)
+
 
 # Deployment
 The page was deplied through GitHub Pages. The steps to deploy are as follows:
