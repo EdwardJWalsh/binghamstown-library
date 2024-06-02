@@ -147,8 +147,9 @@ main {
     min-height: 10rem;
     text-align: center;
     padding: 20px;
-    background-color: #061E45;
+    background-color: #000000;
     background: linear-gradient(to bottom, #7c7c86, transparent);
+    color:black;
 }
 
 #opening-times {
@@ -158,8 +159,9 @@ main {
     color: white; 
 }
 
-#opening-times h1 {
+#opening-times h2 {
     margin-bottom: 20px; 
+    color: white;
 }
 
 #opening-times table {
@@ -171,6 +173,7 @@ main {
     background-color: rgb(121, 120, 120);
     background: linear-gradient(to bottom, #7c7c86, transparent);
     text-align: center;
+    color:black;
 }
 
 #video {
